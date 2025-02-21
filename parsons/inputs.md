@@ -13,21 +13,12 @@
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "sortable",
     "max_wrong_lines": 10,
-    "grader": ParsonsWidget._graders.VariableCheckGrader,
+    "grader": ParsonsWidget._graders.LineBasedGrader,
     "exec_limit": 2500,
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true,
-    "trashId": "sortableTrash",
-    "vartests": [
-        {
-            "message": "",
-            "initcode": "",
-            "code": "",
-            "variables": {}
-        }
-    ]
+    "show_feedback": true
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
