@@ -32,7 +32,7 @@ twitter_username:
 github_username:
 
 # Build settings
-theme: jekyll-theme-dinky
+theme: jekyll-theme-modernist
 # remote_theme: pages-themes/modernist@v0.2.0
 plugins:
   - jekyll-feed
