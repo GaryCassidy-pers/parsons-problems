@@ -1,3 +1,5 @@
+title: Inputs 1
+
 <div id="sortableTrash" class="sortable-code"></div> 
 <div id="sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
