@@ -117,8 +117,8 @@ title: Inputs and Data Types
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "name = input(&quot;Enter your name: &quot;)\n" +
-    "age = int(input(&quot;Enter your age: &quot;))\n" +
+  var initial = "name = input(&quot;First enter your name: &quot;)\n" +
+    "age = int(input(&quot;Now enter your age: &quot;))\n" +
     "print(&quot;Hello &quot; + name + &quot;, you are &quot; + age + &quot; years old.&quot;)";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary5-sortable",
@@ -153,7 +153,7 @@ title: Inputs and Data Types
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = var area_rectangle = "print(&quot;Calculate the area of a rectangle&quot;)\n" +
+  var initial = "print(&quot;Calculate the area of a rectangle&quot;)\n" +
     "length = float(input(&quot;Enter the length: &quot;))\n" +
     "width = float(input(&quot;Enter the width: &quot;))\n" +
     "area = length * width\n" +
@@ -191,7 +191,7 @@ title: Inputs and Data Types
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = var full_name = "first_name = input(&quot;Enter your first name: &quot;)\n" +
+  var initial = "first_name = input(&quot;Enter your first name: &quot;)\n" +
     "last_name = input(&quot;Enter your last name: &quot;)\n" +
     "full_name = first_name + &quot; &quot; + last_name\n" +
     "print(&quot;Your full name is:&quot;, full_name)"
