@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Python Fundamentals 2
 ---
 <h1>1. Input and Output - 1</h1>
