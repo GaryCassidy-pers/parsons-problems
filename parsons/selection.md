@@ -391,7 +391,7 @@ title: Python Fundamentals 2
   var initial = "age = 18\n" +
     "if age >= 18:\n" +
     "    print(&quot;You can vote.&quot;)\n" +
-    "print(&quot;You are an adult&quot;) #distractor";
+    "print(&quot;You are a child&quot;) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary11-sortable",
     "max_wrong_lines": 10,
@@ -545,11 +545,12 @@ title: Python Fundamentals 2
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "a = True\n" +
+  var initial = "num = input(&quot;Enter a number:&quot;)\n" +
     "b = False\n" +
-    "if not b:\n" +
+    "if (num != 10):\n" +
     "    print(&quot;b is False&quot;)\n" +
-    "print(&quot;a is False&quot;) #distractor";
+    "print(&quot;Your number is 10&quot;) #distractor" + 
+    "if (num not 10) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary15-sortable",
     "max_wrong_lines": 10,
@@ -589,7 +590,7 @@ title: Python Fundamentals 2
     "    print(&quot;You passed!&quot;)\n" +
     "else:\n" +
     "    print(&quot;You failed.&quot;)\n" +
-    "print(&quot;Score checked&quot;) #distractor";
+    "elif: #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary16-sortable",
     "max_wrong_lines": 10,
@@ -624,13 +625,13 @@ title: Python Fundamentals 2
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "x = 3\n" +
+  var initial = "x = input(&quot;Enter a number:&quot;)\n" +
     "if x == 1:\n" +
     "    print(&quot;One&quot;)\n" +
     "elif x == 2:\n" +
     "    print(&quot;Two&quot;)\n" +
     "else:\n" +
-    "    print(&quot;Something else&quot;)\n" +
+    "    print(&quot;Your number is not recognised&quot;)\n" +
     "print(x is three) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary17-sortable",
@@ -671,7 +672,7 @@ title: Python Fundamentals 2
     "    print(&quot;Access granted&quot;)\n" +
     "else:\n" +
     "    print(&quot;Access denied&quot;)\n" +
-    "print(&quot;Check password&quot;) #distractor";
+    ""if password = &quot;password123&quot;: #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary18-sortable",
     "max_wrong_lines": 10,
