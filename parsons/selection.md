@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Python Fundamentals 2
 ---
 <h1>1. Input and Output - 1</h1>
@@ -23,7 +22,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary1-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -59,7 +59,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary2-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -75,6 +76,43 @@ title: Python Fundamentals 2
 </script>
 
 <h1>3. Input and Output - 3</h1>
+<div id="gary3-sortableTrash" class="sortable-code"></div> 
+<div id="gary3-sortable" class="sortable-code"></div> 
+<div style="clear:both;"></div> 
+<p> 
+    <input id="gary3-feedbackLink" value="Get Feedback" type="button" /> 
+    <input id="gary3-newInstanceLink" value="Reset Problem" type="button" /> 
+</p> 
+<script type="text/javascript"> 
+(function(){
+  var initial = "num = input(&quot;Enter a number: &quot;)\n" +
+    "print(&quot;You entered: &quot; + num)\n" +
+    "print(num + 5) #distractor";
+  var parsonsPuzzle = new ParsonsWidget({
+    "sortableId": "gary3-sortable",
+    "max_wrong_lines": 10,
+    "grader": ParsonsWidget._graders.LineBasedGrader,
+    "exec_limit": 2500,
+    "can_indent": true,
+    "x_indent": 50,
+    "lang": "en",
+    "show_feedback": true,
+    "trashId": "gary3-sortableTrash"
+  });
+  parsonsPuzzle.init(initial);
+  parsonsPuzzle.shuffleLines();
+  $("#gary3-newInstanceLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.shuffleLines(); 
+  }); 
+  $("#gary3-feedbackLink").click(function(event){ 
+      event.preventDefault(); 
+      parsonsPuzzle.getFeedback(); 
+  }); 
+})(); 
+</script>
+
+<h1>4. Input and Output - 4</h1>
 <div id="gary4-sortableTrash" class="sortable-code"></div> 
 <div id="gary4-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -84,9 +122,9 @@ title: Python Fundamentals 2
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "num = input(&quot;Enter a number: &quot;)\n" +
-    "print(&quot;You entered: &quot; + num)\n" +
-    "print(num + 5) #distractor";
+  var initial = "age = input(&quot;How old are you? &quot;)\n" +
+    "print(&quot;You are &quot; + age + &quot; years old.&quot;)\n" +
+    "print(Your age is: age) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary4-sortable",
     "max_wrong_lines": 10,
@@ -95,7 +133,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary4-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -110,7 +149,7 @@ title: Python Fundamentals 2
 })(); 
 </script>
 
-<h1>4. Input and Output - 4</h1>
+<h1>5. Input and Output - 5</h1>
 <div id="gary5-sortableTrash" class="sortable-code"></div> 
 <div id="gary5-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -120,9 +159,9 @@ title: Python Fundamentals 2
 </p> 
 <script type="text/javascript"> 
 (function(){
-  var initial = "age = input(&quot;How old are you? &quot;)\n" +
-    "print(&quot;You are &quot; + age + &quot; years old.&quot;)\n" +
-    "print(Your age is: age) #distractor";
+  var initial = "color = input(&quot;What is your favorite color? &quot;)\n" +
+    "print(&quot;Wow! &quot; + color + &quot; is a great color!&quot;)\n" +
+    "print(&quot;Your color is cool&quot;) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary5-sortable",
     "max_wrong_lines": 10,
@@ -131,7 +170,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary5-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -140,42 +180,6 @@ title: Python Fundamentals 2
       parsonsPuzzle.shuffleLines(); 
   }); 
   $("#gary5-feedbackLink").click(function(event){ 
-      event.preventDefault(); 
-      parsonsPuzzle.getFeedback(); 
-  }); 
-})(); 
-</script>
-
-<h1>5. Input and Output - 5</h1>
-<div id="gary3-sortableTrash" class="sortable-code"></div> 
-<div id="gary3-sortable" class="sortable-code"></div> 
-<div style="clear:both;"></div> 
-<p> 
-    <input id="gary3-feedbackLink" value="Get Feedback" type="button" /> 
-    <input id="gary3-newInstanceLink" value="Reset Problem" type="button" /> 
-</p> 
-<script type="text/javascript"> 
-(function(){
-  var initial = "color = input(&quot;What is your favorite color? &quot;)\n" +
-    "print(&quot;Wow! &quot; + color + &quot; is a great color!&quot;)\n" +
-    "print(&quot;Your color is cool&quot;) #distractor";
-  var parsonsPuzzle = new ParsonsWidget({
-    "sortableId": "gary3-sortable",
-    "max_wrong_lines": 10,
-    "grader": ParsonsWidget._graders.LineBasedGrader,
-    "exec_limit": 2500,
-    "can_indent": true,
-    "x_indent": 50,
-    "lang": "en",
-    "show_feedback": true
-  });
-  parsonsPuzzle.init(initial);
-  parsonsPuzzle.shuffleLines();
-  $("#gary3-newInstanceLink").click(function(event){ 
-      event.preventDefault(); 
-      parsonsPuzzle.shuffleLines(); 
-  }); 
-  $("#gary3-feedbackLink").click(function(event){ 
       event.preventDefault(); 
       parsonsPuzzle.getFeedback(); 
   }); 
@@ -204,7 +208,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary6-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -242,7 +247,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary7-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -279,7 +285,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary8-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -316,7 +323,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary9-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -354,7 +362,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary10-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -391,7 +400,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary11-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -428,7 +438,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary12-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -469,7 +480,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary13-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -507,7 +519,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary14-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -545,7 +558,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary15-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -584,7 +598,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary16-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -625,7 +640,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary17-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -664,7 +680,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary18-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -703,7 +720,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary19-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -745,7 +763,8 @@ title: Python Fundamentals 2
     "can_indent": true,
     "x_indent": 50,
     "lang": "en",
-    "show_feedback": true
+    "show_feedback": true,
+    "trashId": "gary20-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
