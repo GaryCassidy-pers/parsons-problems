@@ -31,7 +31,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "gary20-sortableTrash"
+    "trashId": "gary" + puzzlenum + "-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -75,7 +75,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "gary20-sortableTrash"
+    "trashId": "gary" + puzzlenum + "-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -120,7 +120,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "gary20-sortableTrash"
+    "trashId": "gary" + puzzlenum + "-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -163,7 +163,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "gary20-sortableTrash"
+    "trashId": "gary" + puzzlenum + "-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -207,7 +207,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "gary20-sortableTrash"
+    "trashId": "gary" + puzzlenum + "-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -249,7 +249,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "gary20-sortableTrash"
+    "trashId": "gary" + puzzlenum + "-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -292,7 +292,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "gary20-sortableTrash"
+    "trashId": "gary" + puzzlenum + "-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -334,7 +334,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "gary20-sortableTrash"
+    "trashId": "gary" + puzzlenum + "-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -376,7 +376,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "gary20-sortableTrash"
+    "trashId": "gary" + puzzlenum + "-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
@@ -418,7 +418,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "x_indent": 50,
     "lang": "en",
     "show_feedback": true,
-    "trashId": "gary20-sortableTrash"
+    "trashId": "gary" + puzzlenum + "-sortableTrash"
   });
   parsonsPuzzle.init(initial);
   parsonsPuzzle.shuffleLines();
