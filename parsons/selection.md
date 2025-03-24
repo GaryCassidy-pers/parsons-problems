@@ -549,7 +549,7 @@ title: Python Fundamentals 2
     "b = False\n" +
     "if (num != 10):\n" +
     "    print(&quot;b is False&quot;)\n" +
-    "print(&quot;Your number is 10&quot;) #distractor" + 
+    "print(&quot;Your number is 10&quot;) #distractor" + "\n" +
     "if (num not 10) #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary15-sortable",
