@@ -5,7 +5,7 @@ title: Python Fundamentals 2
 To check your work, press the "Get Feedback" button. To start over, press the "Reset Problem" button.</h2>
 <h1>Iteration</h1>
 <h1>1</h1>
-<p>Counting down from 5 to 1</p>
+<p>Counting down from 5 to 1 and output 'Blast off!'</p>
 <div id="gary1-sortableTrash" class="sortable-code"></div> 
 <div id="gary1-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -22,6 +22,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "    num -= 1\n" +
     "print(\"Blast off!\")\n" +
     "num == 0 #distractor\n" +
+    "print(Blast off!) #distractor\n" +
     "print num #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary" + puzzlenum + "-sortable",
@@ -65,7 +66,6 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "    print(\"You entered:\", num)\n" +
     "    num = int(input(\"Enter a number: \"))\n" +
     "if num > 0: #distractor\n" +
-    "print(\"Loop ended\")\n" +
     "while num = 0 #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary" + puzzlenum + "-sortable",
@@ -92,7 +92,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 </script>
 
 <h1>3</h1>
-<p>Repeating password input until correct</p>
+<p>Repeating password input until correct password 'python123' is entered.</p>
 <div id="gary3-sortableTrash" class="sortable-code"></div> 
 <div id="gary3-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -154,7 +154,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "    print(num)\n" +
     "    num += 2\n" +
     "num += 3 #distractor\n" +
-    "print(num) #distractor";
+    "print(\"num\") #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary" + puzzlenum + "-sortable",
     "max_wrong_lines": 10,
@@ -180,7 +180,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 </script>
 
 <h1>5</h1>
-<p>Ask for positive numbers, stop when negative</p>
+<p>Ask for positive numbers and print out number but stop when negative</p>
 <div id="gary5-sortableTrash" class="sortable-code"></div> 
 <div id="gary5-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -191,8 +191,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 <script type="text/javascript"> 
 (function(){
   var puzzlenum = 5;
-  var initial = "# Ask for positive numbers, stop when negative\n" +
-    "num = int(input(\"Enter a positive number: \"))\n" +
+  var initial = "num = int(input(\"Enter a positive number: \"))\n" +
     "while num >= 0:\n" +
     "    print(\"You entered:\", num)\n" +
     "    num = int(input(\"Enter a positive number: \"))\n" +
@@ -238,7 +237,6 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
   var initial = 
     "for num in range(1, 6):\n" +
     "    print(num)\n" +
-    "print(\"Done!\")\n" +
     "range(6, 1) #distractor\n" +
     "for num in range 1,6: #distractor";
   var parsonsPuzzle = new ParsonsWidget({
@@ -266,7 +264,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 </script>
 
 <h1>7</h1>
-<p>Sum of numbers from 1 to 10</p>
+<p>Sum of numbers from 1 to 10 and print out final total</p>
 <div id="gary7-sortableTrash" class="sortable-code"></div> 
 <div id="gary7-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -323,7 +321,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
   var initial = 
     "for num in range(1, 21, 3):\n" +
     "    print(num)\n" +
-    "print(\"Sequence complete.\")\n" +
+    "while range(1,20,2): #distractor\n" +
     "range(1,20,2) #distractor\n" +
     "for num range(1,21,3): #distractor";
   var parsonsPuzzle = new ParsonsWidget({
@@ -365,7 +363,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
   var initial = 
     "for num in range(10, 0, -1):\n" +
     "    print(num)\n" +
-    "print(\"Liftoff!\")\n" +
+    "for num in range(0,10,-1) #distractor\n" +
     "for num in range(0,10,-1): #distractor\n" +
     "print(num) = #distractor";
   var parsonsPuzzle = new ParsonsWidget({
@@ -407,8 +405,8 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
   var initial = 
     "for num in range(1, 6):\n" +
     "    print(num ** 2)\n" +
-    "print(\"All squares printed!\")\n" +
     "num ** 3 #distractor\n" +
+    "print(num * 2) #distractor\n" +
     "for num range(1,6): #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary" + puzzlenum + "-sortable",
