@@ -15,8 +15,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 <script type="text/javascript"> 
 (function(){
   var puzzlenum = 1;
-  var initial = 
-    "num = 5\n" +
+  var initial = "num = 5\n" +
     "while num > 0:\n" +
     "    print(num)\n" +
     "    num -= 1\n" +
