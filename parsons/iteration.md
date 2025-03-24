@@ -4,8 +4,7 @@ title: Python Fundamentals 2
 <h2>Drag or shuffle the blocks of code in the practice problems below. Remember to indent where appropriate by dragging blocks to the right.
 To check your work, press the "Get Feedback" button. To start over, press the "Reset Problem" button.</h2>
 <h1>Iteration</h1>
-<h1>1</h1>
-<p>Counting down from 5 to 1 and output 'Blast off!'</p>
+<h1>1. Counting down from 5 to 1 and output 'Blast off!'</h1>
 <div id="gary1-sortableTrash" class="sortable-code"></div> 
 <div id="gary1-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -48,8 +47,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>2</h1>
-<p>Keep asking for a number until user enters 0</p>
+<h1>2. Keep asking for a number until user enters 0</h1>
 <div id="gary2-sortableTrash" class="sortable-code"></div> 
 <div id="gary2-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -91,8 +89,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>3</h1>
-<p>Repeating password input until correct password 'python123' is entered.</p>
+<h1>3. Repeating password input until correct password 'python123' is entered.</h1>
 <div id="gary3-sortableTrash" class="sortable-code"></div> 
 <div id="gary3-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -136,8 +133,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>4</h1>
-<p>Printing even numbers up to 10</p>
+<h1>4. Printing even numbers up to 10</h1>
 <div id="gary4-sortableTrash" class="sortable-code"></div> 
 <div id="gary4-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -179,8 +175,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>5</h1>
-<p>Ask for positive numbers and print out number but stop when negative</p>
+<h1>5. Ask for positive numbers and print out number but stop when negative</h1>
 <div id="gary5-sortableTrash" class="sortable-code"></div> 
 <div id="gary5-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -222,8 +217,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>6</h1>
-<p>Print numbers 1 to 5</p>
+<h1>6. Print numbers 1 to 5</h1>
 <div id="gary6-sortableTrash" class="sortable-code"></div> 
 <div id="gary6-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -263,8 +257,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>7</h1>
-<p>Sum of numbers from 1 to 10 and print out final total</p>
+<h1>7. Sum of numbers from 1 to 10 and print out final total</h1>
 <div id="gary7-sortableTrash" class="sortable-code"></div> 
 <div id="gary7-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -306,8 +299,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>8</h1>
-<p>Print every third number from 1 to 20</p>
+<h1>8. Print every third number from 1 to 20</h1>
 <div id="gary8-sortableTrash" class="sortable-code"></div> 
 <div id="gary8-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -348,8 +340,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>9</h1>
-<p>Count down from 10</p>
+<h1>9. Count down from 10</h1>
 <div id="gary9-sortableTrash" class="sortable-code"></div> 
 <div id="gary9-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
@@ -390,8 +381,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>10</h1>
-<p>Print squares of numbers 1 to 5</p>
+<h1>10. Print squares of numbers 1 to 5</h1>
 <div id="gary10-sortableTrash" class="sortable-code"></div> 
 <div id="gary10-sortable" class="sortable-code"></div> 
 <div style="clear:both;"></div> 
