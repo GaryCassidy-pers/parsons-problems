@@ -1,6 +1,8 @@
 ---
 title: Python Fundamentals 2
 ---
+<h2>Drag or shuffle the blocks of code in the practice problems below. Remember to indent where appropriate by dragging blocks to the right.
+To check your work, press the "Get Feedback" button. To start over, press the "Reset Problem" button.</h2>
 <h1>1. Iteration</h1>
 <p>Counting down from 5 to 1</p>
 <div id="gary1-sortableTrash" class="sortable-code"></div> 
