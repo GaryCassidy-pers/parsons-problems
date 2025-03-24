@@ -3,7 +3,8 @@ title: Python Fundamentals 2
 ---
 <h2>Drag or shuffle the blocks of code in the practice problems below. Remember to indent where appropriate by dragging blocks to the right.
 To check your work, press the "Get Feedback" button. To start over, press the "Reset Problem" button.</h2>
-<h1>1. Iteration</h1>
+<h1>Iteration</h1>
+<h1>1</h1>
 <p>Counting down from 5 to 1</p>
 <div id="gary1-sortableTrash" class="sortable-code"></div> 
 <div id="gary1-sortable" class="sortable-code"></div> 
@@ -46,7 +47,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>2. Iteration</h1>
+<h1>2</h1>
 <p>Keep asking for a number until user enters 0</p>
 <div id="gary2-sortableTrash" class="sortable-code"></div> 
 <div id="gary2-sortable" class="sortable-code"></div> 
@@ -90,7 +91,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>3. Iteration</h1>
+<h1>3</h1>
 <p>Repeating password input until correct</p>
 <div id="gary3-sortableTrash" class="sortable-code"></div> 
 <div id="gary3-sortable" class="sortable-code"></div> 
@@ -135,7 +136,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>4. Iteration</h1>
+<h1>4</h1>
 <p>Printing even numbers up to 10</p>
 <div id="gary4-sortableTrash" class="sortable-code"></div> 
 <div id="gary4-sortable" class="sortable-code"></div> 
@@ -178,7 +179,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>5. Iteration</h1>
+<h1>5</h1>
 <p>Ask for positive numbers, stop when negative</p>
 <div id="gary5-sortableTrash" class="sortable-code"></div> 
 <div id="gary5-sortable" class="sortable-code"></div> 
@@ -222,7 +223,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>6. Iteration</h1>
+<h1>6</h1>
 <p>Print numbers 1 to 5</p>
 <div id="gary6-sortableTrash" class="sortable-code"></div> 
 <div id="gary6-sortable" class="sortable-code"></div> 
@@ -264,7 +265,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>7. Iteration</h1>
+<h1>7</h1>
 <p>Sum of numbers from 1 to 10</p>
 <div id="gary7-sortableTrash" class="sortable-code"></div> 
 <div id="gary7-sortable" class="sortable-code"></div> 
@@ -307,7 +308,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>8. Iteration</h1>
+<h1>8</h1>
 <p>Print every third number from 1 to 20</p>
 <div id="gary8-sortableTrash" class="sortable-code"></div> 
 <div id="gary8-sortable" class="sortable-code"></div> 
@@ -349,7 +350,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>9. Iteration</h1>
+<h1>9</h1>
 <p>Count down from 10</p>
 <div id="gary9-sortableTrash" class="sortable-code"></div> 
 <div id="gary9-sortable" class="sortable-code"></div> 
@@ -391,7 +392,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
 })(); 
 </script>
 
-<h1>10. Iteration</h1>
+<h1>10</h1>
 <p>Print squares of numbers 1 to 5</p>
 <div id="gary10-sortableTrash" class="sortable-code"></div> 
 <div id="gary10-sortable" class="sortable-code"></div> 
