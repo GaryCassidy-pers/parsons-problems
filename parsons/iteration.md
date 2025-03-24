@@ -108,7 +108,7 @@ To check your work, press the "Get Feedback" button. To start over, press the "R
     "    guess = input(\"Enter password: \")\n" +
     "print(\"Access granted!\")\n" +
     "while guess = password: #distractor\n" +
-    "print(\"Wrong password\") #distractor";
+    "print(\"Wrong password\"): #distractor";
   var parsonsPuzzle = new ParsonsWidget({
     "sortableId": "gary" + puzzlenum + "-sortable",
     "max_wrong_lines": 10,
