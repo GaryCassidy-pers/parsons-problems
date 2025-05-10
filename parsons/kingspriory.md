@@ -6,7 +6,7 @@ A School Steeped in History
 
 Kings Priory is uniquely situated near Tynemouth Priory and Castle, a historic English Heritage site overlooking the North Sea. This dramatic backdrop reflects the school’s emphasis on character, resilience, and pride in its local identity. Students benefit from small class sizes, an extensive extracurricular program, and a curriculum designed to nurture academic excellence and creativity.
 
-Rumours of Royalty and Pop Royalty
+Pop Royalty Alumni
 
 While the school has long been known locally for producing successful alumni in fields ranging from politics to the arts. Beyoncé herself attended Kings Priory during her childhood.
 
